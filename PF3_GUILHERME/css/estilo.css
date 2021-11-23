@@ -1,0 +1,36 @@
+body {
+    scrollbar-arrow-color: rgba(64, 63, 63, 0.93);
+    scrollbar-3dlight-color:#FFFFFF;
+    scrollbar-highlight-color:#FFFFFF;
+    scrollbar-face-color: rgba(64, 63, 63, 0.93);
+    scrollbar-shadow-color:#FFFFFF;
+    scrollbar-darkshadow-color:rgba(64, 63, 63, 0.93);
+    scrollbar-track-color:#FFFFFF;
+    background-color: rgba(72, 27, 94, 0.76);
+}
+
+.g{
+    font-size: 28px;
+}
+
+.a{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 15px;
+    -webkit-box-shadow: inset -3px -3px 13px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: inset -3px -3px 13px 0px rgba(0,0,0,0.42);
+    box-shadow: inset -3px -3px 13px 0px rgba(0,0,0,0.42);
+    /*-webkit-box-shadow: inset 1px 1px 6px -1px rgba(0,0,0,0.42);
+    -moz-box-shadow: inset 1px 1px 6px -1px rgba(0,0,0,0.42);
+    box-shadow: inset 1px 1px 6px -1px rgba(0,0,0,0.42);*/
+}
+
+.cr{
+  cursor:pointer;
+}
+
+.navbr{
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,1);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,1);
+}
