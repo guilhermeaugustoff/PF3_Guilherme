@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"
+          href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/estilo.css">
+    <title>FP - Menu</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-guilherme navbr">
+    <div class="container">
+        <a class="navbar-brand h1 mb-0" href="#">Financial Plan</a>
+        <div class="collapse navbar-collapse ms-4" id="navbarText">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link mt-1" href="index.html">Menu <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="index.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-1" href="index.html">Critérios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-1" href="index.html">Desenvolvedores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-1" href="index.html">Sair</a>
+                </li>
+            </ul>
+        
+        </div>
+    </div>
+</nav>
+<div class="container">
+            <div class="row bg-light mt-5 px-4 pt-4 a">
+            <h1 class="text-center">Calcule o valor a ser Poupado</h1>
+            <div class="mb-3 col-md-6 mt-3">
+                <label for="nome" class="mb-0 g">Nome:</label>
+                <div class="input-group input-group-lg">
+                    <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu Nome, Ex: Alexandre;" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+            </div>
+                <div class="mb-3 col-md-6 mt-3">
+                <label for="vaplicado" class="mb-0 g">Valor aplicado mensalmente:</label>
+                    <div class="input-group input-group-lg">
+                        <input type="number" id="vaplicado" name="vaplicado" class="form-control" placeholder="Digite o valor aplicado mensalmente, Ex: 1.75;" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                    </div>
+                </div>
+            <div class="mb-3 col-md-6 mt-3">
+                <label for="nparcelas" class="mb-0 g">Número de parcelas mensais:</label>
+                <div class="input-group input-group-lg">
+                    <input type="number" id="nparcelas" name="nparcelas" class="form-control" placeholder="Digite o número de parcelas mensais, Ex: 80;" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+            </div>
+                <div class="mb-3 col-md-6 mt-3">
+                <label for="txjuros" class="mb-0 g">Taxa de Juros:</label>
+                    <div class="input-group input-group-lg">
+                        <input type="number" id="txjuros" name="txjuros" class="form-control" placeholder="Digite a Taxa de juros mensais, Ex: 1.75;" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                    </div>
+                </div>
+                    <div class="py-3">
+                    <button id="calc" class="btn btn-outline-guilherme">Calcular</button>
+                        <button id="reset" class="btn btn-outline-warning ms-3">Limpar</button>
+                    </div>
+            </div>
+    <div class="row bg-light mt-5 p-4 a" id='resultado'></div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
